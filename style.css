@@ -15,6 +15,18 @@ body {
     flex-direction: column;
 }
 
+li {
+    color: #ff9200;
+}
+
+li span{
+    color: black;
+}
+
+ul {
+    text-align: left;
+}
+
 .header {
     background-image: url(images/flag.png);
     background-repeat: no-repeat;
@@ -141,14 +153,6 @@ body {
     height: 200px;
     background-repeat: no-repeat;
     background-image: url(images/first-ct.png);
-}
-
-.first-ct-header p {
-    font-size: 36px;
-    color: #ff9200;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px 80px 0 80px;
 }
 
 .frst-ct-blocks {
@@ -278,10 +282,43 @@ table {
     background-repeat: no-repeat;
 }
 
+.money-img {
+    background-image: url("images/money.png");
+    height: 90px;
+    width: 153px;
+}
+
+.invelope-img {
+    background-image: url("images/invelope.png");
+    height: 135px;
+    width: 120px;
+}
+
+.p-img {
+    background-image: url("images/p.png");
+    height: 120px;
+    width: 120px;
+}
+
+.title-orange {
+    margin: 0 0 25px 0;
+    font-size: 36px;
+    color: #ff9200;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 80px 0 80px;
+}
+
 .fourth-ct-header {
     background-image: url("images/fourth-ct.png");
     height: 21px;
     background-repeat: no-repeat;
+}
+
+.choice {
+    background-image: url("images/choice.png");
+    height: 28px;
+    width: 213px;
 }
 
 .frth-ct-content {
