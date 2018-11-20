@@ -25,7 +25,23 @@
         <p>Ваш друг в Вконтакте поклонник Ozon.</p>
         <p>Электронный подарочный сертификат Ozon станет неожиданным, ярким и желанным <br>подарком на День Рождения!
         </p>
-        <a href="#" class="btn">Купить сертификат сейчас</a>
+        <a href="#modal1" class="btn">Купить сертификат сейчас</a>
+        <a href="#x" class="overlay" id="modal1"></a>
+        <div class="popup">
+            <p>Логин</p>
+            <input type="text" placeholder="Логин">
+            <p>Пароль</p>
+            <input type="password" placeholder="Пароль">
+            <a class="close" title="Закрыть" href="#close"></a>
+            <p>Сумма сертификата</p>
+            <select>
+                <option>1500 рублей</option>
+                <option>2000 рублей</option>
+                <option selected="selected">3000 рублей</option>
+                <option>5000 рублей</option>
+            </select><br>
+            <button>Купить</button>
+        </div>
         Это займет всего 2 минуты!
     </div>
     <div class="letter">
@@ -101,58 +117,96 @@
             <div class="first-ct-content content-ct">
                 <p class="title-orange">Как купить подарочный сертификат</p>
                 <div class="frst-ct-blocks wrap">
-                <div class="inline">
-                    <div class="circle">
-                        <div class="money-img"></div>
+                    <div class="inline">
+                        <div class="circle">
+                            <div class="money-img"></div>
+                        </div>
+                        <div class="text-style">
+                            <b>Шаг 1</b>
+                            <p>Выберите номинал - 500, 1000, 1500, 2000,3000 или 5000</p>
+                        </div>
                     </div>
-                    <div class="text-style">
-                        <b>Шаг 1</b>
-                        <p>Выберите номинал - 500, 1000, 1500, 2000,3000 или 5000</p>
+                    <div class="inline">
+                        <div class="circle">
+                            <div class="invelope-img"></div>
+                        </div>
+                        <div class="text-style">
+                            <b>Шаг 2</b>
+                            <p>Выберите форму отправки :</p>
+                            <ul>
+                                <li><span>на E-mail</span></li>
+                                <li><span>в специальной ссылке</span></li>
+                            </ul>
+                            <p>Протестируйте и выберите то, что подходит именно вам!</p>
+                        </div>
                     </div>
-                </div>
-                <div class="inline">
-                    <div class="circle">
-                        <div class="invelope-img"></div>
+                    <div class="inline">
+                        <div class="circle">
+                            <div class="p-img"></div>
+                        </div>
+                        <div class="text-style">
+                            <b>Шаг 3</b>
+                            <p>Оплатите заказ удобным способом.</p>
+                            <div class="choice"></div>
+                        </div>
                     </div>
-                    <div class="text-style">
-                        <b>Шаг 2</b>
-                        <p>Выберите форму отправки :</p>
-                        <ul>
-                            <li><span>на E-mail</span></li>
-                            <li><span>в специальной ссылке</span></li>
-                        </ul>
-                        <p>Протестируйте и выберите то, что подходит именно вам!</p>
-                    </div>
-                </div>
-                <div class="inline">
-                    <div class="circle">
-                        <div class="p-img"></div>
-                    </div>
-                    <div class="text-style">
-                        <b>Шаг 3</b>
-                        <p>Оплатите заказ удобным способом.</p>
-                        <div class="choice"></div>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
         <div>
-            <div class="fourth-ct-header">
-
-            </div>
+            <div class="fourth-ct-header"></div>
             <div class="frth-ct-content content-ct">
-
+                <p class="title-orange">Протестировать бесплатно</p>
+                <div class="btns-in-row">
+                    <a href="#modal2" class="btn small-btn">Тестовый сертификат по E-mail</a>
+                    <a href="#x" class="overlay" id="modal2"></a>
+                    <div class="popup">
+                        <p>Ваш адрес электронной почты:</p>
+                        <input type="text" placeholder="Адрес электронной почты">
+                        <a class="close" title="Закрыть" href="#close"></a>
+                        <p>Сумма сертификата</p>
+                        <select>
+                            <option>1500 рублей</option>
+                            <option>2000 рублей</option>
+                            <option selected="selected">3000 рублей</option>
+                            <option>5000 рублей</option>
+                        </select><br>
+                        <button>Отправить</button>
+                        <a class="close" title="Закрыть" href="#close"></a>
+                    </div>
+                    <a href="#win1" class="btn small-btn">Тестовый сертификат по ссылке</a>
+                    <a href="#x" class="overlay" id="win1"></a>
+                    <div class="popup">
+                        <p>Ссылка:</p>
+                        <input type="text" placeholder="Вставьте ссылку">
+                        <a class="close" title="Закрыть" href="#close"></a>
+                        <button>Получить</button>
+                        <a class="close" title="Закрыть" href="#close"></a>
+                    </div>
+                </div>
             </div>
         </div>
         <div>
             <div class="fifth-ct-header">
-
             </div>
             <div class="ffth-ct-content content-ct">
-
+                <div class="title-white">Приступить к покупке</div>
+                <div class="btns-in-row">
+                    <div class="gift"></div>
+                    <div>
+                        <select>
+                            <option>1500 рублей</option>
+                            <option>2000 рублей</option>
+                            <option selected="selected">3000 рублей</option>
+                            <option>5000 рублей</option>
+                        </select>
+                        <a href="#" class="blue-btn">Купить</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <p class="footer-text">© 2005-2014, Дари Подарки - интернет-магазин подарочных сертифификатов, карт в Москве и
+        Санкт-Петербурге.<br>Все права защащены</p>
 </body>
 </html>
